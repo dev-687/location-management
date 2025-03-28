@@ -1,4 +1,4 @@
-# Location Management
+# Location Management (using Laravel 12)
 
 ## Here you can manage state, city and pincode
 
@@ -39,3 +39,9 @@
 
 **state_city_pincode_history**
 ![state_city_pincode_history](image-7.png)
+
+**Designed and Developed By**
+
+*Kapil Dev*
+
+[kapil.d687@gmail.com]
