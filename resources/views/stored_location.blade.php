@@ -33,7 +33,7 @@
                                 </div>
                             @endforeach
                         </div>
-                        <button type="button" id="addRow" class="bg-blue-500 text-white rounded p-2">Add Row</button>
+                        {{-- <button type="button" id="addRow" class="bg-blue-500 text-white rounded p-2">Add Row</button> --}}
                         <button type="button" id="submitEditForm" class="bg-green-500 text-white rounded p-2">Update</button>
                     </form>
                 </div>
@@ -47,13 +47,13 @@
     <script>
         $(document).ready(function() {
 
-            $('#addRow').click(function() {
-                var newRow = $('.editRow:first').clone();
-                newRow.find('input').val('');
-                newRow.find('select.stateSelect').prop('selectedIndex', '');
-                newRow.find('select.citySelect').html('<option value="">Select City</option>');
-                $('#editRows').append(newRow);
-            });
+            // $('#addRow').click(function() {
+            //     var newRow = $('.editRow:first').clone();
+            //     newRow.find('input').val('');
+            //     newRow.find('select.stateSelect').prop('selectedIndex', '');
+            //     newRow.find('select.citySelect').html('<option value="">Select City</option>');
+            //     $('#editRows').append(newRow);
+            // });
 
 
             $(document).on('click', '.removeRow', function() {
